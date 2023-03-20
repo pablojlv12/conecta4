@@ -12,7 +12,7 @@ public class Start {
 
 		System.out.println(tablero);
 		
-		while(true) {
+		while(!tablero.hayGanador()) {
 			
 			int donde = teclado.nextInt();
 			tablero.coloca(donde);
